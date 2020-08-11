@@ -14,6 +14,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		8E49C8A624E2AD380091E965 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E49C8A524E2AD380091E965 /* SecondViewController.swift */; };
 		E4039D499E7094F14593906B /* Pods_PopupTransitioningDelegate_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275126516B4B18B0C1F18F6C /* Pods_PopupTransitioningDelegate_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,10 +44,11 @@
 		607FACE51AFB9204008FA782 /* PopupTransitioningDelegate_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopupTransitioningDelegate_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		8E49C8A524E2AD380091E965 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		99E6C3D40C9930841DB780AE /* Pods-PopupTransitioningDelegate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopupTransitioningDelegate_Tests.release.xcconfig"; path = "Target Support Files/Pods-PopupTransitioningDelegate_Tests/Pods-PopupTransitioningDelegate_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A108745E00E6E736FC487CD2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B87DDC3ACAAD76265C879C1B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F7B21BD901ABD7E9AB93E019 /* PopupTransitioningDelegate.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PopupTransitioningDelegate.podspec; path = ../PopupTransitioningDelegate.podspec; sourceTree = "<group>"; };
+		A108745E00E6E736FC487CD2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B87DDC3ACAAD76265C879C1B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F7B21BD901ABD7E9AB93E019 /* PopupTransitioningDelegate.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PopupTransitioningDelegate.podspec; path = ../PopupTransitioningDelegate.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +79,6 @@
 				0143A085E65D704648BF743C /* Pods-PopupTransitioningDelegate_Tests.debug.xcconfig */,
 				99E6C3D40C9930841DB780AE /* Pods-PopupTransitioningDelegate_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -107,6 +108,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				8E49C8A524E2AD380091E965 /* SecondViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -227,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -331,6 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E49C8A624E2AD380091E965 /* SecondViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

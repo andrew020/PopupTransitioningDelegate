@@ -15,6 +15,17 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    @IBAction func showSecondVC(_ sender: Any) {
+        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+        var viewcontroller: UIViewController!
+        if #available(iOS 13.0, *) {
+            viewcontroller = storyboard.instantiateViewController(identifier: "SecondViewController")
+        } else {
+            viewcontroller = storyboard.instantiateViewController(withIdentifier: "SecondViewController")
+        }
+        present(viewcontroller, animated: true, completion: nil)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
