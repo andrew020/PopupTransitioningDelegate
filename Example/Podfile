@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PopupTransitioningDelegate_Example' do
+  pod 'PopupTransitioningDelegate', :path => '../'
+
+  target 'PopupTransitioningDelegate_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
